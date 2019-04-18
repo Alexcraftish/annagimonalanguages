@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+span {
+  font-size: 4em;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+#heroSection {
+  height: 100vh;
+  position: relative;
+  background-color: #0062a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#dienste {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  z-index: 2;
+  border-radius: 30px;
+  box-shadow: 8px 7px 13px 1px rgba(0, 0, 0, 0.49);
+  background-color: white;
+  position: relative;
+  top: -100px;
+  padding: 20px;
+}
+
+#dienste > h2 {
+  color: #8D8D8D;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.overlay {
+  background-image: url(/assets/full-bloom.png);
+  background-size: 300px;
+  position: absolute;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.navBar {
+  position: absolute;
+  line-height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0 30px 0 30px;
+}
+
+.heroTitle::before {
+  content: "";
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 130%;
+  display: block;
+  height: 3px;
+  background-color: white;
+}
+
+.heroTitle {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+}
+
+.slogan {
+  font-family: "Pacifico", cursive;
+  font-size: 5em;
+}
+
+.navWrapper {
+  display: inline-flex;
+  width: 50%;
+  position: absolute;
+  right: 60px;
+}
+
+.navWrapper > a {
+  flex: 1;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
