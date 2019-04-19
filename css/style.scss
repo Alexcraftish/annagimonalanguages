@@ -157,4 +157,9 @@ a {
   position: absolute;
   top: 22px;
   right: 5px;
+  display: none;
+
+  @media only screen and (max-width: 500px) {
+    display: inline-block;
+  }
 }
