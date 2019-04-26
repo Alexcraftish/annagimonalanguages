@@ -203,6 +203,7 @@ a {
 .diensteWrapper > img {
   flex-grow: 1;
   height: 65px;
+  max-width: 65px;
   padding: 0 40px 0 20px;
 }
 
