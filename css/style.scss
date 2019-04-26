@@ -15,6 +15,11 @@ span {
   font-size: 4em;
 }
 
+p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
 h1 {
   text-transform: uppercase;
   display: inline;
@@ -189,4 +194,52 @@ a {
 
 .diensteWrapper > div {
   flex-grow: 2;
+}
+
+#about {
+  color: $grey;
+  margin-bottom: 70px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 180%;
+}
+
+.container > h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.container > img {
+  height: 260px;
+  margin-bottom: 30px;
+}
+
+#contact {
+  color: $grey;
+  padding: 50px;
+}
+
+.container > a {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 5px 0 20px 0;
+  color: $blue;
+}
+
+.footer {
+  background-color: $blue;
+  line-height: 40px;
+  font-size: 0.8em;
+  font-weight: 300;
+  display: flex;
+  text-align: center;
+}
+
+.footer > a {
+  flex: 1;
 }
