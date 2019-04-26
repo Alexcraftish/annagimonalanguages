@@ -210,6 +210,12 @@ a {
   flex-grow: 2;
 }
 
+@media only screen and (max-width: 950px) {
+  .diensteWrapper > div > p {
+    display: none;
+  }
+}
+
 #about {
   color: #747474;
   margin-bottom: 70px;
@@ -220,6 +226,12 @@ a {
   margin: auto;
   text-align: center;
   line-height: 180%;
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    width: 90%;
+  }
 }
 
 .container > h2 {
@@ -252,6 +264,13 @@ a {
   font-weight: 300;
   display: flex;
   text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer {
+    line-height: auto;
+    flex-direction: column;
+  }
 }
 
 .footer > a {

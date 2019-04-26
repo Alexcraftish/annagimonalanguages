@@ -196,6 +196,12 @@ a {
   flex-grow: 2;
 }
 
+.diensteWrapper > div > p {
+  @media only screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
 #about {
   color: $grey;
   margin-bottom: 70px;
@@ -206,6 +212,10 @@ a {
   margin: auto;
   text-align: center;
   line-height: 180%;
+
+  @media only screen and (max-width: 950px) {
+    width: 90%;
+  }
 }
 
 .container > h2 {
@@ -238,6 +248,11 @@ a {
   font-weight: 300;
   display: flex;
   text-align: center;
+
+  @media only screen and (max-width: 950px) {
+    line-height: auto;
+    flex-direction: column;
+  }
 }
 
 .footer > a {
