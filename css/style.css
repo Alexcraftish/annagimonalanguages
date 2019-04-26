@@ -43,7 +43,7 @@ a {
 
 #dienste {
   width: 70%;
-  height: 500px;
+  height: auto;
   margin: auto;
   z-index: 2;
   border-radius: 30px;
@@ -61,10 +61,11 @@ a {
 }
 
 #dienste > h2 {
-  color: #8d8d8d;
+  color: #747474;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .overlay {
@@ -183,5 +184,24 @@ a {
   .menuBtn {
     display: inline-block;
   }
+}
+
+.diensteWrapper {
+  color: #747474;
+  display: flex;
+  line-height: 170%;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  align-items: center;
+}
+
+.diensteWrapper > img {
+  flex-grow: 1;
+  height: 65px;
+  padding: 0 40px 0 20px;
+}
+
+.diensteWrapper > div {
+  flex-grow: 2;
 }
 /*# sourceMappingURL=style.css.map */
