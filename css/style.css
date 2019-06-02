@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 span {
@@ -104,6 +109,44 @@ a {
     padding: 0 15px 0 15px;
     line-height: 80px;
   }
+}
+
+.mobileMenu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  z-index: 5;
+  transform: translateX(100%);
+  transition: 400ms ease transform;
+  color: #747474;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 25px;
+}
+
+.mobileMenu > div {
+  height: 60%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileMenu > a {
+  display: block;
+}
+
+.show {
+  transform: translate(0);
+  transition: 400ms ease transform;
 }
 
 .heroTitle::before {

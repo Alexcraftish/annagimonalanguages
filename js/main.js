@@ -5,3 +5,23 @@ var typed = new Typed("#typed", {
   backSpeed: 30,
   loop: true
 });
+
+//MENU SHOW/CLOSE
+const menuBtn = document.querySelector(".menuBtn");
+const mobileMenu = document.querySelector(".mobileMenu");
+const navlinks = document.querySelectorAll(".navLink");
+const closeBtn = document.querySelector(".closeBtn");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.add("show");
+});
+
+navlinks.forEach(navLink => {
+  navLink.addEventListener("click", () => {
+    mobileMenu.classList.remove("show");
+  })
+});
+
+closeBtn.addEventListener("click", () => {
+  mobileMenu.classList.remove("show");
+})
