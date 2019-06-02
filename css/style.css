@@ -129,6 +129,11 @@ a {
   color: #747474;
 }
 
+.languages {
+  font-size: .8rem;
+  color: #a7a7a7;
+}
+
 .closeBtn {
   position: absolute;
   top: 30px;

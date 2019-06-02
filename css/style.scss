@@ -126,6 +126,11 @@ a {
   color: $grey;
 }
 
+.languages {
+  font-size: .8rem;
+  color: lighten($grey, 20%);
+}
+
 .closeBtn {
   position: absolute;
   top: 30px;
