@@ -62,6 +62,10 @@ a {
   position: relative;
   top: -100px;
   padding: 20px;
+  animation-name: diensteAnim;
+  animation-duration: 600ms;
+  animation-delay: 500ms;
+  animation-timing-function: ease;
 }
 
 @media only screen and (max-width: 500px) {
@@ -335,5 +339,14 @@ a {
 
 .footer > a {
   flex: 1;
+}
+
+@keyframes diensteAnim {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
