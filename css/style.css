@@ -162,6 +162,27 @@ a {
   transition: 400ms ease transform;
 }
 
+.desktopLanguage {
+  background-color: white;
+  display: none;
+  color: #747474;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: .8rem;
+  z-index: 3;
+}
+
+.desktopLanguage > a {
+  margin: 0 5px 0 5px;
+}
+
+.desktopLanguage > a:hover {
+  color: #8e8e8e;
+}
+
 .heroTitle::before {
   content: "";
   margin-top: 15px;

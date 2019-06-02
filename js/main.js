@@ -25,3 +25,17 @@ navlinks.forEach(navLink => {
 closeBtn.addEventListener("click", () => {
   mobileMenu.classList.remove("show");
 })
+
+
+//Language Desktop
+const LanguageBtn = document.querySelector("#languageBtn");
+const langaugeDesktop = document.querySelector(".desktopLanguage");
+
+LanguageBtn.addEventListener("click", () => {
+  if (langaugeDesktop.style.display == "inline-block") {
+    langaugeDesktop.style.display = "none";
+  }
+  else {
+    langaugeDesktop.style.display = "inline-block";
+  }
+});
